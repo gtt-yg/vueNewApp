@@ -1,0 +1,48 @@
+@charset "utf-8";
+html,body,p,h1,h2,h3,h4,h5,h6,form,ol,ul,dl,li,dt,dd,fieldset,legend,img,input,select,option{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:16px;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	vertical-align: middle;
+	border:0;
+}
+b,strong,i,em,h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+	font-style:normal;
+}
+fieldset{
+	border:0;
+}
+.clearfn:after{
+	content:"";
+	clear:both;
+	display: block;
+	height:0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+html{
+    font-size: 26.67vw;
+}
+body{
+    display: flex;
+    flex-flow: column;
+}
